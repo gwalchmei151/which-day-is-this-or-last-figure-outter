@@ -88,80 +88,8 @@ THISLAST() {
     fi
 }
 
-# LAST() {
-
-# }
-
 greetings
 initial_menu
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# KIV
-
-# initial_menu() {
-#     echo
-#     echo "Today is ${day}, ${ddMMYYY}."
-#     PS3=$'Please select an option - are you interested in \"this\" or \"last\"?\n>> '
-#     select opt in "This" "Last" Exit; do
-#         case $opt in
-#             "This")
-#                 choose-target-day
-#                 THIS
-#                 break
-#             ;;
-#             "Last")
-#                 choose-target-day
-#                 LAST
-#                 break
-#             ;;
-#             Exit)
-#                 echo "[ ^_^ ] Good bye!"
-#                 exit 0
-#             ;;
-#             *)
-#                 echo "That is not one of the options"
-#             ;;
-#         esac
-#     done
-# }
